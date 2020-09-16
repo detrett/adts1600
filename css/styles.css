@@ -1,0 +1,184 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: rgb(0,20,64);
+    background: rgb(248,237,245);
+    background: linear-gradient(90deg, rgba(248,237,245,1) 0%, rgba(248,237,245,1) 35%, rgba(137,129,193,1) 100%);
+}
+
+header {
+    font-family: 'Oxygen', sans-serif;
+}
+
+/**START OF HEADER**/
+#header-nav{ /*Banner*/
+    background-color: rgb(137,129,193);
+}
+
+.navbar-brand h1 { /*Make title bold*/
+    font-weight: 700;
+}
+
+li.nav-item, a.dropdown-item { /*Aligns text inside dropdown menu*/
+    text-align: center;
+}
+
+.btn-outline-success { /*Change color of search button*/
+    color: rgb(0,20,64);
+    border-color: rgb(0,20,64);
+  }
+.btn-outline-success:hover {
+    color: rgb(248,237,245);
+    background-color: rgb(0,20,64);
+    border-color: rgb(0,20,64);
+  }
+.btn-outline-success:focus, .btn-outline-success.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,20,64,0.5);
+  }
+  .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-success:not(:disabled):not(.disabled).active,
+.show > .btn-outline-success.dropdown-toggle { /*When clicked on and maintained*/
+  color: rgb(248,237,245);
+  background-color: rgb(8,51,110);
+  border-color: rgb(8,51,110);
+}
+.btn-outline-success:not(:disabled):not(.disabled):active:focus, .btn-outline-success:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(8, 51, 110, 0.5);
+}
+
+.dropdown-item { /*Change color of dropdown menu*/
+    color: rgba(0,20,64,0.5);
+  }
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #16181b;
+    text-decoration: none;
+    background-color: rgb(218, 214, 238);
+  }
+.dropdown-item.active, .dropdown-item:active {
+    color: rgb(0,3,45);
+    text-decoration: none;
+    background-color: rgb(202, 198, 228);
+  }
+.dropdown-item.disabled, .dropdown-item:disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: transparent;
+  }
+.dropdown-menu {
+    color: rgb(0,20,64);
+    background-color: rgb(249,243,249);
+  }
+
+/**END OF HEADER**/
+
+/**START OF MAIN CONTENT**/
+
+
+#carousel-carewear {
+	height: 660px;
+	width: 768px;
+}
+.carouselTitle {
+  font-family: 'Source Sans Pro';
+	font-size: 64px;
+	font-weight: 400;
+	color: rgb(248,237,245);
+	text-shadow: 0 1px 5px rgb(0,20,64);
+	position: absolute;
+	bottom: 82px;
+	left: 300px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-left: 15px;
+  border: 1px solid rgb(137,129,193);
+  opacity: 0.5;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(249,243,249);
+  opacity: 1;
+}
+
+.fa-chevron-left, .fa-chevron-right { /*Arrow colors*/
+  color: rgb(0,3,45);
+}
+
+#main-content { /*Align carousel*/
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#home-description{
+  width: 50%;
+}
+
+#main-align {
+  display: block;
+  font-size: 3.5em;
+  margin-top: 80px;
+  margin-left: 115px;
+}
+
+#about-align {
+  display: block;
+  font-size: 1.3em;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+
+div > span {
+  color: rgba(0,20,64,0.75);
+  font-size: 1.2em;
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+#know-more {
+  margin-left: 190px;
+  margin-top: 30px!important;
+  border-radius: 1rem;
+}
+
+div.card {
+  margin-right: 1000px;
+  width: 100%;
+  clear: both;
+}
+
+/**END OF MAIN CONTENT**/
+
+/**PHONE SIZE**/
+@media (max-width: 576px){ /*Search button on phones*/
+    form button {
+        width: 100%;
+    }
+}
+/**SMALL SIZE**/
+@media (min-width: 577px) and (max-width: 767px){
+    form.form-inline {
+        text-align: center;
+    }
+}
+
+/**MEDIUM SIZE**/
+@media (min-width: 768px) and (max-width: 1199px) {
+    li.nav-item {
+        padding: 20px;
+    }
+}
+
+/**LARGE SIZE**/
+@media (min-width: 1200px) {
+    li.nav-item {
+        padding: 20px;
+    }
+}
