@@ -156,6 +156,47 @@ div.card {
 
 /**END OF MAIN CONTENT**/
 
+/**FOOTER**/
+.panel-footer {
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+  background-color: rgba(115, 70, 138, 0.809);
+  padding-bottom: 20px;
+  color: rgb(248,237,245);
+}
+#copyright{
+  padding-top: 20px;
+}
+
+#footer-button{
+  padding-top: 10px;
+}
+/**END OF FOOTER**/
+
+/**PRODUCT INFO**/
+.col > h3 {
+  font-size: 2.5em;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.tab-pane {
+  margin-bottom: 75px;
+}
+
+#video {
+  margin-bottom: 20px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgb(115, 70, 138);
+}
+ul.nav-pills li a {
+  color: rgb(115, 70, 138);
+}
+
 /**PHONE SIZE**/
 @media (max-width: 576px){ /*Search button on phones*/
     form button {

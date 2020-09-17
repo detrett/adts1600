@@ -36,7 +36,7 @@
             <hr class="d-block d-md-none">
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="product-info.html"><span class="fas fa-heartbeat"></span><br class="d-block d-sm-none">
+            <a class="nav-link active" href="product-info.html"><span class="fas fa-heart"></span><br class="d-block d-sm-none">
               Product</a>
             <hr class="d-block d-md-none">
           </li>
@@ -51,7 +51,7 @@
               <a class="dropdown-item" href="about-us.html">Our mission</a>
               <a class="dropdown-item" href="about-us.html">CareWear team</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Contact us</a>
+              <a class="dropdown-item" href="contact.html">Contact us</a>
             </div>
           </li>
         </ul>
@@ -68,8 +68,37 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h3 class="text-center text-primary py-3 text-uppercase">Our Product</h3>
-            <div class="embed-responsive embed-responsive-16by9">
+            <h3 class="text-center py-3 text-uppercase">CareWear device</h3>
+
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-pulse-tab" data-toggle="pill" href="#pills-pulse" role="tab" aria-controls="pills-pulse" aria-selected="true"><i class="fas fa-heartbeat"></i> — Pulse Monitor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-fall-tab" data-toggle="pill" href="#pills-fall" role="tab" aria-controls="pills-fall" aria-selected="false"><i class="fas fa-exclamation-circle"></i> — Fall Detector</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-envelope"></i> — Emergency Alerts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-medication-tab" data-toggle="pill" href="#pills-medication" role="tab" aria-controls="pills-medication" aria-selected="false"><i class="fas fa-pills"></i> — Medication Reminders</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-pulse" role="tabpanel" aria-labelledby="pills-pulse-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis soluta dolorem animi quisquam, assumenda praesentium dicta ex iusto esse. Repudiandae, nostrum. Quam iste placeat animi? Animi possimus quos quis?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas facilis sint ipsa fugiat animi non, ducimus molestiae nobis itaque molestias at provident hic praesentium dolor minima necessitatibus omnis modi repellendus.
+              </div>
+              <div class="tab-pane fade" id="pills-fall" role="tabpanel" aria-labelledby="pills-fall-tab">Cupcake ipsum dolor sit amet biscuit brownie dessert tootsie roll. Gummi bears jelly oat cake pastry cotton candy tootsie roll icing caramels apple pie. Lemon drops oat cake gummies tootsie roll tiramisu icing. Chocolate fruitcake brownie powder jelly-o.
+                Cupcake ipsum dolor sit amet biscuit brownie dessert tootsie roll. Gummi bears jelly oat cake pastry cotton candy tootsie roll icing caramels apple pie. Lemon drops oat cake gummies tootsie roll tiramisu icing. Chocolate fruitcake brownie powder jelly-o
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">You are a worm though time. The thunder song distorts you. Happiness comes. White pearls, but yellow and red in the eye. Through a mirror, inverted is made right. Leave your insides by the door.
+                 Push the fingers through the surface into the wet. You’ve always been the new you. You want this to be true. We stand around while you dream. You can almost hear our words but you forget. This happens more and more now. You gave us the permission in your regulations. We wait in the stains. The word that describes this is redacted. Repeat the word.</div>
+              <div class="tab-pane fade" id="pills-medication" role="tabpanel" aria-labelledby="pills-medication-tab">However, parties who have received computer software programs from several different sources. No royalty or other fee is hereby granted, free of charge, to any derivative work available to others as provided in accordance with FAR 12.211
+                 (Technical Data) and 12.212 (Computer Software) and, for Department of Defense purchases, DFAR 252.227-7015 (Technical Data -- Commercial Items) and 227.7202-3 (Rights in Commercial Computer Software or Computer Software Documentation). Accordingly, all U.S.
+                Government End Users acquire Covered Code governed by the Free Software Foundation. If you are welcome to redistribute it and/or modify the terms of the Contribution. Also, each Contributor grants the licenses granted by this License, each Contributor grants the licenses granted to the Original Code provided by the Package.</div>
+            </div>
+
+            <div id="video" class="embed-responsive embed-responsive-16by9">
               <iframe width="1280" height="822" src="https://www.youtube.com/embed/RRNanbmD1xk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
@@ -79,7 +108,34 @@
   </div>
   <!--END OF MAIN CONTENT-->
 
-
+ <!--START OF FOOTER-->
+ <footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <section id="email" class="col-sm-4">
+        <span>Email:</span><br>
+        carewear@fakeemail.com<br>
+        <div id="footer-button">
+          <a href="contact.html"><button id="contact-us" class="active btn btn-outline-success my-2 my-sm-0" type="submit">Contact us</button></a>
+        </div>
+        <hr class="d-block d-sm-none">
+      </section>
+      <section id="address" class="col-sm-4">
+        <span>Address:</span><br>
+        Carewear gate, 20 - 0123
+        Oslo, Norway
+        <hr class="d-block d-sm-none">
+      </section>
+      <section id="testimonials" class="col-sm-4">
+        <p>"Changed our lives. Beautiful design and clear interaction."</p>
+      </section>
+    </div>
+    <div id="copyright" class="text-center">
+      &copy; Copyright CareWear 2020
+    </div>
+  </div>
+</footer>
+<!--END OF FOOTER-->
 
 
 
