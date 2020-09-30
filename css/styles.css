@@ -69,6 +69,14 @@ li.nav-item, a.dropdown-item { /*Aligns text inside dropdown menu*/
     background-color: rgb(249,243,249);
   }
 
+a.dropdown-item > img {
+  width: 34px;
+  height: 25px;
+}
+.align {
+  vertical-align: top;
+}
+
 /**END OF HEADER**/
 
 /**START OF MAIN CONTENT**/
