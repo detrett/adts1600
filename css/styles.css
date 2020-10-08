@@ -193,6 +193,14 @@ div.vl {
   text-align: right;
 }
 
+#about-button {
+  padding-top: 90px;
+  padding-bottom: 105px;
+}
+#about-us {
+  size: 200%;
+}
+
 /**END OF MAIN CONTENT**/
 
 /**FOOTER**/
