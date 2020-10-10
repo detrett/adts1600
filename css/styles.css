@@ -9,6 +9,9 @@ body {
 header {
     font-family: 'Oxygen', sans-serif;
 }
+header a {
+  color: white;
+}
 
 /**START OF HEADER**/
 #header-nav{ /*Banner*/
@@ -22,6 +25,14 @@ header {
 li.nav-item, a.dropdown-item { /*Aligns text inside dropdown menu*/
     text-align: center;
 }
+
+.nav-link.active {
+  color: rgba(249,243,249,0.9);
+}
+.nav-link {
+  color: rgba(249,243,249,0.5);
+}
+
 
 .btn-outline-success { /*Change color of search button*/
     color: rgb(0,20,64);
